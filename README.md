@@ -1,2 +1,2 @@
-# tyleransom.github.io
-Repository for Tyler Ransom's academic research website.
+# Ranger Chung.github.io
+Repository for Ranger Chung's academic research website.
