@@ -1,11 +1,10 @@
 <!doctype html>
 <html lang="en">
   <head>
-  <script src="https://use.fontawesome.com/baff6f55f5.js"></script>
+    <script src="https://use.fontawesome.com/baff6f55f5.js"></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Homepage-Renjie Zhong</title>
-
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
@@ -23,156 +22,143 @@
       ga('send', 'pageview');
     </script>
 
-    <!-- New GA4 tracking code, see https://support.google.com/analytics/answer/10271001#analyticsjs-enable-basic --> 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-GNJD50R0Z7"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-GNJD50R0Z7');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-GNJD50R0Z7');
     </script>
 
-    <!-- For all browsers -->
-    <link rel="stylesheet" href="assets/css/academicons.min.css"/>
-    <link rel="stylesheet" href="assets/css/academicons.css"/>
+    <link rel="stylesheet" href="assets/css/academicons.min.css">
+    <link rel="stylesheet" href="assets/css/academicons.css">
 
     <style>
-      button.accordion {
-      font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-      cursor: pointer;
-      padding: 0px;
-      border: none;
-      text-align: left;
-      outline: none;
-      font-size: 100%;
-      transition: 0.3s;
-      background-color: #f8f8f8;
+      .profile-photo {
+        display: block;
+        width: 160px;
+        max-width: 100%;
+        height: auto;
       }
-      button.accordion.active, button.accordion:hover {
-      background-color: #f8f8f8;
+      .author-social {
+        overflow-wrap: anywhere;
+      }
+      .paper-entry {
+        margin: 0;
+      }
+      button.accordion {
+        font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 100%;
+        cursor: pointer;
+        padding: 0;
+        border: none;
+        text-align: left;
+        background-color: #f8f8f8;
       }
       button.accordion:after {
-      content: " [+] ";
-      font-size: 90%;
-      color:#777;
-      float: left;
-      margin-left: 1px;
+        content: " [+] ";
+        font-size: 90%;
+        color: #777;
+        float: left;
+        margin-left: 1px;
       }
-
       button.accordion.active:after {
-      content: " [\2212] ";
+        content: " [\2212] ";
       }
-      div.panel {
-      padding: 0 20px;
-      margin-top: 5px;
-      display: none;
-      background-color: white;
-      font-size: 100%;
+      .panel {
+        display: none;
+        margin-top: 5px;
+        padding: 10px;
+        background-color: #f1f1f1;
+        color: #666;
       }
-      div.panel.show {
-      display: block !important;
-      }
-      .social-row {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+      .panel.show {
+        display: block;
       }
     </style>
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <h1>Renjie Zhong </h1>
+        <h1>Renjie Zhong</h1>
         <p>Econ PhD Student<br>Columbia University</p>
 
+        <p>
+          <a href="1.jpg">
+            <img class="profile-photo" src="1.jpg" alt="Renjie Zhong">
+          </a>
+        </p>
 
-<br>
-        <div class="social-row">
-   <a href="mailto:renjiezhongecon@gmail.com" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Email: renjiezhongecon@gmail.com</a><br>
-          <br>
+        <p>Welcome!</p>
+        <p>I am a Ph.D. student at Columbia Economics. Here is my <a href="https://RenjieZhongecon.github.io/research/CV.pdf">CV (Sep 2026)</a>.</p>
+        <p>I study microeconomic theory, in particular mechanism design.</p>
+
+        <p>
+          <a href="mailto:renjiezhongecon@gmail.com" class="author-social"><i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email: renjiezhongecon@gmail.com</a>
+        </p>
+      </header>
+
+      <section>
+        <h2 id="workingpapers"><a id="recent-papers-updated" class="anchor" href="#workingpapers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Working Papers</h2>
+
+        <p class="paper-entry">
+          <b>Selling Training Data (New Draft Coming Soon)</b><br>
+          with Jingmin Huang and <a href="https://weizhao-econ.weebly.com/">Wei Zhao</a><br>
+          <i>What is the optimal mechanism for selling supplementary datasets?</i><br>
+          <button type="button" class="accordion" aria-expanded="false">Abstract</button>
+        </p>
+        <div class="panel"><p></p></div>
+        <p class="paper-entry"><button type="button" class="accordion" aria-expanded="false">Slides</button></p>
+        <div class="panel"><p><a href="https://RenjieZhongecon.github.io/research/data.pdf">60 min Ver (slides with old results)</a></p></div>
+        <br>
+        <hr>
+
+        <h2 id="workinprogress"><a id="works-in-progress" class="anchor" href="#workinprogress" aria-hidden="true"><span class="octicon octicon-link"></span></a>Works in Progress</h2>
+
+        <p class="paper-entry">
+          <b>Mechanical Mediation (Draft Coming Soon)</b><br>
+          with <a href="https://sites.google.com/view/roberto-corrao">Roberto Corrao</a>, <a href="https://sites.google.com/view/sulagna">Sulagna Dasgupta</a>, and <a href="https://www.ferdowsian.net/">Andrew Ferdowsian</a><br>
+          <button type="button" class="accordion" aria-expanded="false">Abstract</button>
+        </p>
+        <div class="panel"><p>Coming soon.</p></div>
+        <br>
+        <hr>
+
+        <p class="paper-entry">
+          <b>Behavioral Menu Design</b><br>
+          with <a href="https://www.zihaoliecon.com/">Zihao Li</a>, <a href="https://economics.princeton.edu/graduate-program/graduate-student-directory/">Yi Zhang</a><br>
+          <button type="button" class="accordion" aria-expanded="false">Abstract</button>
+        </p>
+        <div class="panel"><p>Coming soon.</p></div>
+        <br>
+        <hr>
+
+        <h2 id="note"><a class="anchor" href="#note" aria-hidden="true"><span class="octicon octicon-link"></span></a>Note</h2>
+
+        <p class="paper-entry">
+          <b><a href="https://RenjieZhongecon.github.io/research/On the Existence of Fully Informative Experiment.pdf">On the Existence of Fully Informative Experiment in Optimal Menu</a></b><br>
+          <i>An alternative way to understand no distortion in optimal information selling mechanism.</i><br>
+          <button type="button" class="accordion" aria-expanded="false">Abstract</button>
+        </p>
+        <div class="panel">
+          <p>In their analysis of screening with information products, Bergemann et al. (2018) showed the existence of fully informative information in optimal menu, which constitutes a core foundation for the proof of almost all key theorems in the paper. We provide an additional proof to its existence in the direct mechanism framework and reemphasize the key difference between screening with tradition products and information products lies in the non-congruent preference order for information products due to different priors and the existence of common most-preferred products, i.e. fully informative experiment, thus emphasizing the rents extraction balancing vertical and horizontal values of information.</p>
         </div>
         <br>
-
-
- </header>
-      <section>
-      <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:63%;vertical-align:middle">
-               <p> Welcome! </p>
-      <p>I am a Ph.D. student at Columbia Economics. Here is my <a href="https://RenjieZhongecon.github.io/research/CV.pdf">CV (Sep 2026) </a>. </p>
-              <p>I study microeconomic theory, in particular mechanism design. </p>
-              
-            </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
-             
-                  <a href="images/1.jpg"><img
-                      style="width:100%;max-width:100%" alt="profile photo"  src="1.jpg" class="hoverZoomLink"></a>
-            </td>
-          </tr>
-        </tbody></table>
-       
-
-
+        <hr>
       </section>
     </div>
+
     <script src="javascripts/scale.fix.js"></script>
+    <script>
+      document.querySelectorAll('button.accordion').forEach(function (button) {
+        var panel = button.parentElement.nextElementSibling;
+
+        button.addEventListener('click', function () {
+          var expanded = panel.classList.toggle('show');
+          button.classList.toggle('active', expanded);
+          button.setAttribute('aria-expanded', expanded);
+        });
+      });
+    </script>
   </body>
-              <section>
-
-
-   
-        
-         <h2><a id="recent-papers-updated" class="anchor" href="#workingpapers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Working Papers</h2>
-
-        <p style="margin:0"> <b>Selling Training Data  (New Draft Coming Soon)</b> <br> with Jingmin Huang and <a href="https://weizhao-econ.weebly.com/">Wei Zhao</a><br> <i>What is the optimal mechanism for selling supplementary datasets?</i> <br><button class="accordion">
-     Abstract
-    </button>
-    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>   </p></div>
-        <p style="margin:0"><button class="accordion">
-          Slides
-              </button>
-            <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>  <a href="https://RenjieZhongecon.github.io/research/data.pdf"> 60 min Ver (slides with old results) </a> </p></div><br>
-   <hr>
-
-    <h2><a id="works-in-progress" class="anchor" href="#workinprogress" aria-hidden="true"><span class="octicon octicon-link"></span></a>Works in Progress</h2>
-
-    <p style="margin:0"> <b> Mechanical Mediation (Draft Coming Soon) </b> <br> with <a href="https://sites.google.com/view/roberto-corrao">Roberto Corrao</a>, <a href="https://sites.google.com/view/sulagna">Sulagna Dasgupta</a>, and <a href="https://www.ferdowsian.net/">Andrew Ferdowsian </a> <br><button class="accordion">
-      Abstract
-    </button>
-    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>  Coming soon. </p></div><br>
-   <hr>
-
-         <p style="margin:0"> <b> Behavioral Menu Design </b> <br> with <a href="https://www.zihaoliecon.com/">Zihao Li</a>, <a href="https://economics.princeton.edu/graduate-program/graduate-student-directory/">Yi Zhang</a> <br> <button class="accordion">
-      Abstract
-    </button>
-    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>  Coming soon. </p></div><br>
-   <hr>
-
-        
-            <h2><a id="note" class="anchor" href="#workinprogress" aria-hidden="true"><span class="octicon octicon-link"></span></a>Note</h2>
-
-    <p style="margin:0"> <b><a href="https://RenjieZhongecon.github.io/research/On the Existence of Fully Informative Experiment.pdf">On the Existence of Fully Informative Experiment in Optimal Menu</a></b> <br> <i>An alternative way to understand no distortion in optimal information selling mechanism.</i> <br><button class="accordion">
-      Abstract
-    </button>
-    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>  In their analysis of screening with information products, Bergemann et al. (2018) showed the existence of fully informative information in optimal menu, which constitutes a core foundation for the proof of almost all key theorems in the paper. We provide an additional proof to its existence in the direct mechanism framework and reemphasize the key difference between screening with tradition products and information products lies in the non-congruent preference order for information products due to different priors and the existence of common most-preferred products, i.e. fully informative experiment, thus emphasizing the rents extraction balancing vertical and horizontal values of information. </p></div><br>
-   <hr>
-
-      </section>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    <script> 
-    var acc = document.getElementsByClassName("accordion");
-    var i;
-
-    for (i = 0; i < acc.length; i++) {
-        acc[i].onclick = function(){
-            this.classList.toggle("active");
-            this.parentNode.nextElementSibling.classList.toggle("show");
-      }
-    }
 </html>
